@@ -1,4 +1,0 @@
-category: KDE
-requires: libgcc1 libkdecore5 libQTCore4 libQtGui4 libstdc++6 libstreamanalyzer0 okular
-sdesc: "KDE Mobipocket format plugins"
-ldesc: "KDE Mobipocket format plugins"
