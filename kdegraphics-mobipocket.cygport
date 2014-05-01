@@ -7,6 +7,8 @@ CATEGORY="KDE"
 SUMMARY="KDE Mobipocket format plugins"
 DESCRIPTION="Part of the KDE graphics suite"
 
+PATCH_URI="http://pkgs.fedoraproject.org/cgit/kdegraphics-mobipocket.git/plain/kdegraphics-mobipocket-4.12.0-qmobipocket_kde4_includes_hint.patch"
+
 PKG_NAMES="${NAME} libqmobipocket1 libqmobipocket-devel"
 kdegraphics_mobipocket_CONTENTS="usr/lib/kde4/mobithumbnail.dll
 	usr/lib/strigi/strigila_mobi.dll usr/share/doc/
