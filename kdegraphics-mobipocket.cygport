@@ -1,8 +1,17 @@
 inherit kde4
 
 NAME="kdegraphics-mobipocket"
-VERSION=4.11.5
+VERSION=4.12.5
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="KDE Mobipocket format plugins"
 DESCRIPTION="Part of the KDE graphics suite"
+
+PKG_NAMES="${NAME} libqmobipocket1 libqmobipocket-devel"
+kdegraphics_mobipocket_CONTENTS="usr/lib/kde4/mobithumbnail.dll
+	usr/lib/strigi/strigila_mobi.dll usr/share/doc/
+	usr/share/kde4/services/mobithumbnail.desktop"
+libqmobipocket1_CONTENTS="usr/bin/cygqmobipocket-1.dll"
+libqmobipocket_devel_CONTENTS="usr/include/kde4/qmobipocket/
+	usr/lib/cmake/QMobipocket/ usr/lib/libqmobipocket.dll.a"
+
