@@ -1,7 +1,7 @@
 inherit kde4
 
 NAME="kdegraphics-mobipocket"
-VERSION=15.04.3
+VERSION=16.08.3
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="KDE Mobipocket format plugins"
@@ -10,9 +10,11 @@ DESCRIPTION="Part of the KDE graphics suite"
 PATCH_URI="http://pkgs.fedoraproject.org/cgit/kdegraphics-mobipocket.git/plain/kdegraphics-mobipocket-4.12.0-qmobipocket_kde4_includes_hint.patch"
 
 PKG_NAMES="${NAME} libqmobipocket1 libqmobipocket-devel"
-kdegraphics_mobipocket_CONTENTS="usr/lib/kde4/mobithumbnail.dll
-	usr/lib/strigi/strigila_mobi.dll usr/share/doc/
-	usr/share/kde4/services/mobithumbnail.desktop"
+kdegraphics_mobipocket_CONTENTS="
+	usr/lib/kde4/mobithumbnail.dll
+	usr/share/doc/
+	usr/share/kde4/services/mobithumbnail.desktop
+"
 libqmobipocket1_CATEGORY="Libs"
 libqmobipocket1_CONTENTS="usr/bin/cygqmobipocket-1.dll"
 libqmobipocket_devel_CATEGORY="Libs"
