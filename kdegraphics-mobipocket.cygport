@@ -1,7 +1,7 @@
 inherit kf5
 
 NAME="kdegraphics-mobipocket"
-VERSION=17.04.3
+VERSION=17.08.3
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="KDE Mobipocket format plugins"
@@ -16,6 +16,7 @@ kdegraphics_mobipocket_CONTENTS="
 libqmobipocket2_CATEGORY="Libs"
 libqmobipocket2_CONTENTS="usr/bin/cygqmobipocket-2.dll"
 libqmobipocket_devel_CATEGORY="Libs"
+libqmobipocket_devel_REQUIRES="libQt5Core-devel libQt5Gui-devel"
 libqmobipocket_devel_CONTENTS="
 	usr/include/qmobipocket/
 	usr/lib/cmake/QMobipocket/
